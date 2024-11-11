@@ -20,7 +20,7 @@ public class ResultFrame{
          this.location = location;
 
          String apiKey = "{WEATHER_STACK_API key goes here}";
-         String apiURL = "http://api.weatherstack.com/current?access_key=" + apiKey + "&query=" + location + "&units=f";
+         String apiURL = "";
 
          HttpClient httpClient = HttpClients.createDefault();
          HttpGet getRequest = new HttpGet(apiURL);
